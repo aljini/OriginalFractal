@@ -11,7 +11,7 @@ public void draw(){
 
 squareFractal(500,50,-500,1500,43,128,136);
 
-strokeWeight(10);
+strokeWeight(20);
 stroke(255,234, 0);
 noFill();
 rect(0,0, 1000, 1000);
