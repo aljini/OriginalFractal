@@ -7,7 +7,14 @@ public void setup(){
 
 public void draw(){
 
+
+
 squareFractal(500,50,-500,1500,43,128,136);
+
+strokeWeight(10);
+stroke(255,234, 0);
+noFill();
+rect(0,0, 1000, 1000);
 
 myFractal(500,350,650,980,249,255,89,255);
 
@@ -19,7 +26,7 @@ public void myFractal(int n,int a,int b,int c,int r, int g, int bl,int re){
 
 if(c<5){
 
-	strokeWeight(1);
+	strokeWeight(10);
 
 	fill(r,g,bl);
 	ellipse(n,n, c,c);
